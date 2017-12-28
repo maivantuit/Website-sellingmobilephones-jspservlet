@@ -1,0 +1,20 @@
+SMAP
+insert_005fsanpham_jsp.java
+JSP
+*S JSP
+*F
++ 0 insert_sanpham.jsp
+admin/insert_sanpham.jsp
+*L
+5,11:54
+15:155,6
+15:67
+16:68,3
+17,3:71
+20:74,3
+21,3:77
+24:80,3
+25,48:83
+73:131,3
+74,4:134
+*E
