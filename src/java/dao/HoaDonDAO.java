@@ -42,7 +42,7 @@ public class HoaDonDAO {
 
     // get table HoaDonDatHang:(DonHang)
     public ArrayList<HoaDon> getListHoaDon() {
-        ArrayList<HoaDon> listhd = new ArrayList<HoaDon>();
+        ArrayList<HoaDon> listhd2 = new ArrayList<HoaDon>();
         try {
             Connection connect = DBConnect.getConnection();
             String sql = " select * from DonHang";
@@ -61,7 +61,7 @@ public class HoaDonDAO {
         } catch (SQLException ex) {
             Logger.getLogger(HoaDonDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return listhd;
+        return listhd2;
     }
        // xem table Hóa đơn theo 1 mã khách hàng:
     public static ArrayList<HoaDon> getListHoaDonHaveCode(String makh) {
